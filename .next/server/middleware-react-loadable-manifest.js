@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"../app/portfolio/page.tsx -> @/components/PortfolioLogos\":{\"id\":\"../app/portfolio/page.tsx -> @/components/PortfolioLogos\",\"files\":[\"static/chunks/_app-pages-browser_src_components_PortfolioLogos_tsx.js\"]},\"../components/PortfolioLogos.tsx -> ./CompanyCard\":{\"id\":\"../components/PortfolioLogos.tsx -> ./CompanyCard\",\"files\":[\"static/chunks/_app-pages-browser_src_components_CompanyCard_tsx.js\"]}}"
