@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components/root-layout.tsx -> @/components/footer\":{\"id\":\"components/root-layout.tsx -> @/components/footer\",\"files\":[\"static/chunks/_app-pages-browser_src_components_footer_tsx.js\"]},\"components/root-layout.tsx -> @/components/navbar\":{\"id\":\"components/root-layout.tsx -> @/components/navbar\",\"files\":[\"static/chunks/_app-pages-browser_src_components_navbar_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
