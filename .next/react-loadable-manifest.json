@@ -1,12 +1,12 @@
 {
-  "components/root-layout.tsx -> @/components/footer": {
-    "id": "components/root-layout.tsx -> @/components/footer",
+  "components/layout-wrapper.tsx -> @/components/footer": {
+    "id": "components/layout-wrapper.tsx -> @/components/footer",
     "files": [
       "static/chunks/_app-pages-browser_src_components_footer_tsx.js"
     ]
   },
-  "components/root-layout.tsx -> @/components/navbar": {
-    "id": "components/root-layout.tsx -> @/components/navbar",
+  "components/layout-wrapper.tsx -> @/components/navbar": {
+    "id": "components/layout-wrapper.tsx -> @/components/navbar",
     "files": [
       "static/chunks/_app-pages-browser_src_components_navbar_tsx.js"
     ]
