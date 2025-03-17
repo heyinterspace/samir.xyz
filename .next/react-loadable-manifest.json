@@ -1,4 +1,16 @@
 {
+  "app/portfolio/page.tsx -> @/components/portfolio-logos": {
+    "id": "app/portfolio/page.tsx -> @/components/portfolio-logos",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_portfolio-logos_tsx.js"
+    ]
+  },
+  "app/portfolio/page.tsx -> @/components/stats-section": {
+    "id": "app/portfolio/page.tsx -> @/components/stats-section",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_stats-section_tsx.js"
+    ]
+  },
   "components/root-layout.tsx -> @/components/footer": {
     "id": "components/root-layout.tsx -> @/components/footer",
     "files": [
