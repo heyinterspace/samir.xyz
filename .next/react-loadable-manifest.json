@@ -1,14 +1,1 @@
-{
-  "components/client-layout.tsx -> @/components/footer": {
-    "id": "components/client-layout.tsx -> @/components/footer",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_footer_tsx.js"
-    ]
-  },
-  "components/client-layout.tsx -> @/components/navbar": {
-    "id": "components/client-layout.tsx -> @/components/navbar",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_navbar_tsx.js"
-    ]
-  }
-}
+{}
