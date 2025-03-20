@@ -1,14 +1,8 @@
 {
-  "app/portfolio/page.tsx -> @/components/portfolio-cards": {
-    "id": "app/portfolio/page.tsx -> @/components/portfolio-cards",
+  "components/client-wrapper.tsx -> @/components/client-layout": {
+    "id": "components/client-wrapper.tsx -> @/components/client-layout",
     "files": [
-      "static/chunks/_app-pages-browser_src_components_portfolio-cards_tsx.js"
-    ]
-  },
-  "app/portfolio/page.tsx -> @/components/stats-section": {
-    "id": "app/portfolio/page.tsx -> @/components/stats-section",
-    "files": [
-      "static/chunks/_app-pages-browser_src_components_stats-section_tsx.js"
+      "static/chunks/_app-pages-browser_src_components_client-layout_tsx.js"
     ]
   }
 }
