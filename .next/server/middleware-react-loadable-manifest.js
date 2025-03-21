@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components/client-wrapper.tsx -> @/components/client-layout\":{\"id\":\"components/client-wrapper.tsx -> @/components/client-layout\",\"files\":[\"static/chunks/_app-pages-browser_src_components_client-layout_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
