@@ -1371,6 +1371,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.group:hover .group-hover\:opacity-80 {
+  opacity: 0.8;
+}
+
 :is(.dark .dark\:bg-gray-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
