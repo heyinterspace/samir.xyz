@@ -1,6 +1,4 @@
 {
-  "/api/portfolio/route": "app/api/portfolio/route.js",
-  "/api/categories/route": "app/api/categories/route.js",
   "/page": "app/page.js",
   "/portfolio/page": "app/portfolio/page.js",
   "/ventures/page": "app/ventures/page.js"
