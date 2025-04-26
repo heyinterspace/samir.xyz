@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"app/ventures/page.tsx -> ../components/ventures-grid\":{\"id\":\"app/ventures/page.tsx -> ../components/ventures-grid\",\"files\":[\"static/chunks/_app-pages-browser_app_components_ventures-grid_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
