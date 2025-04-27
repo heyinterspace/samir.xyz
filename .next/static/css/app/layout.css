@@ -1000,6 +1000,10 @@ video {
 .border-white\/10 {
   border-color: rgb(255 255 255 / 0.1);
 }
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
 .border-t-transparent {
   border-top-color: transparent;
 }
@@ -1406,6 +1410,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1883,6 +1891,11 @@ h1, h2, h3, h4, h5, h6 {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+:is(.dark .dark\:border-gray-700) {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\:bg-gray-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -1906,6 +1919,16 @@ h1, h2, h3, h4, h5, h6 {
 :is(.dark .dark\:text-gray-500) {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-gray-400) {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 640px) {
@@ -1954,6 +1977,11 @@ h1, h2, h3, h4, h5, h6 {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
