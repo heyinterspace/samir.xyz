@@ -1,0 +1,21 @@
+run = "npm run dev"
+language = "nodejs"
+entrypoint = "run.sh"
+onBoot = "chmod +x run.sh"
+hidden = ["node_modules", ".next"]
+
+[env]
+PATH = "/home/runner/$REPL_SLUG/node_modules/.bin:/home/runner/$REPL_SLUG/.config/npm/node_global/bin"
+PORT = "3000"
+
+[packager]
+language = "nodejs"
+
+[nix]
+channel = "stable-22_11"
+
+[languages.javascript]
+pattern = "**/*.{js,jsx,ts,tsx}"
+
+[languages.javascript.languageServer]
+start = [ "typescript-language-server", "--stdio" ]
