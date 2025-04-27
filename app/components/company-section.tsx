@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useQuery } from '@tanstack/react-query';
 import InvestmentMetrics from './investment-metrics';
-import PortfolioMetricsSummary from './portfolio-metrics-summary';
+import MetricsSummaryStandalone from './metrics-summary-standalone';
 
 type Portfolio = {
   id: number;
@@ -138,8 +138,8 @@ export default function CompanySection() {
 
   return (
     <>
-      {/* Portfolio Metrics Summary */}
-      <PortfolioMetricsSummary />
+      {/* Portfolio Metrics Summary - Using the standalone component */}
+      <MetricsSummaryStandalone />
 
       {/* Category Filter Buttons */}
       <div className="flex justify-start overflow-x-auto scrollbar-thin scrollbar-thumb-purple-primary scrollbar-track-transparent pb-2 mb-8">
