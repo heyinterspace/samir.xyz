@@ -381,6 +381,7 @@ video {
 }
   html {
   scroll-behavior: smooth;
+    font-size: 18px; /* Increased from default 16px for better readability on high-res displays */
 }
   
   /* Basic styling */
@@ -776,6 +777,9 @@ video {
 .max-w-3xl {
   max-width: 48rem;
 }
+.max-w-5xl {
+  max-width: 64rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -796,9 +800,6 @@ video {
 }
 .max-w-xl {
   max-width: 36rem;
-}
-.max-w-5xl {
-  max-width: 64rem;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
