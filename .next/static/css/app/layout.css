@@ -738,6 +738,12 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[120px\] {
+  height: 120px;
+}
+.max-h-\[80\%\] {
+  max-height: 80%;
+}
 .min-h-\[50vh\] {
   min-height: 50vh;
 }
@@ -764,6 +770,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[120px\] {
+  width: 120px;
 }
 .min-w-full {
   min-width: 100%;
@@ -794,6 +803,9 @@ video {
 }
 .max-w-xl {
   max-width: 36rem;
+}
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
