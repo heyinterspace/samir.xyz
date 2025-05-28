@@ -1,6 +1,4 @@
 {
-  "/api/ventures-minimal/route": "app/api/ventures-minimal/route.js",
-  "/api/ventures-detailed/route": "app/api/ventures-detailed/route.js",
   "/page": "app/page.js",
   "/launching-soon/page": "app/launching-soon/page.js",
   "/ventures/page": "app/ventures/page.js"
