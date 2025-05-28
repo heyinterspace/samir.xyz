@@ -2134,6 +2134,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 1rem;
   }
 
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
