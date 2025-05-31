@@ -396,7 +396,19 @@ video {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+  
+  /* Prevent horizontal overflow on all elements */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Ensure containers don't exceed viewport width */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
 
   /* Default link styling */
   a {
@@ -735,11 +747,11 @@ video {
 .h-8 {
   height: 2rem;
 }
-.h-full {
-  height: 100%;
-}
 .h-\[120px\] {
   height: 120px;
+}
+.h-full {
+  height: 100%;
 }
 .max-h-\[80\%\] {
   max-height: 80%;
@@ -768,11 +780,11 @@ video {
 .w-8 {
   width: 2rem;
 }
-.w-full {
-  width: 100%;
-}
 .w-\[120px\] {
   width: 120px;
+}
+.w-full {
+  width: 100%;
 }
 .min-w-full {
   min-width: 100%;
@@ -798,14 +810,14 @@ video {
 .max-w-\[200px\] {
   max-width: 200px;
 }
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
 .max-w-lg {
   max-width: 32rem;
 }
 .max-w-xl {
   max-width: 36rem;
-}
-.max-w-\[80\%\] {
-  max-width: 80%;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
