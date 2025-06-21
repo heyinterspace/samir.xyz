@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/metrics/route": "app/api/metrics/route.js",
+  "/api/portfolio/route": "app/api/portfolio/route.js",
+  "/page": "app/page.js",
+  "/portfolio/page": "app/portfolio/page.js"
 }
