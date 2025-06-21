@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"app/ventures/page.tsx -> ../components/ventures-grid-detailed\":{\"id\":\"app/ventures/page.tsx -> ../components/ventures-grid-detailed\",\"files\":[\"static/chunks/_app-pages-browser_app_components_ventures-grid-detailed_tsx.js\"]},\"app/ventures/page.tsx -> ../components/ventures-grid-minimal\":{\"id\":\"app/ventures/page.tsx -> ../components/ventures-grid-minimal\",\"files\":[\"static/chunks/_app-pages-browser_app_components_ventures-grid-minimal_tsx.js\"]}}"
